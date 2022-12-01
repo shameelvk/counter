@@ -1,0 +1,38 @@
+.continer{
+
+
+display: grid;
+width: 100%;
+height: 100%;
+justify-content: space-around;
+justify-items: center;
+}
+label{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-weight: 800;
+    font-size: 60px;
+    font-family: sans-serif;
+}
+input{
+    margin: 10px;
+    width: 80px;
+    border-radius: 50px;
+    border: none;
+    height: 80px;
+    color:#ff0000;
+    font: 1em/1.25em Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+input:hover{
+    background-color: black;
+}
+body{
+    background-color: yellow;
+}
+h1{
+    font-family: system-ui;
+    font-size: 50px;
+}
